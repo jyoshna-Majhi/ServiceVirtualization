@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ds version="5.8.0.2614" id="625ca0fe-2454-4262-9d03-9e39c1342917" vsId="f943579b-ea6f-4773-9156-86fcbdff8f71" dmId="23b27c21-885f-413e-96b0-4966d045ba91" sorId="8a495c31-a7bf-4a42-9e98-e679f6789a91" hc="98767454" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <sc id="2420a08b-6f8e-43ea-a12b-f8a4ed17a701" ts="2024-08-31T17:27:13.7599602Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">empty</ntId>
+    <ntId p="6:1">empty</ntId>
+    <s p="8:1">200</s>
+    <s p="10:1">text/plain</s>
+  </sc>
+  <sc id="da87e942-e857-4141-81cb-4b64ddff125b" ts="2024-09-19T17:05:20.513822Z" ri="1" rc="1" rr="false">
+    <ntId p="4:1">3c803f76-cff0-417c-8df1-827183e3b2ef</ntId>
+    <ntId p="6:1">empty</ntId>
+    <s p="8:1">200</s>
+    <s p="10:1">text/plain</s>
+    <b p="20:1"></b>
+    <s p="21:1">sim_default_Filename</s>
+    <s p="22:1">sim_default_Mimetype</s>
+  </sc>
+</ds>

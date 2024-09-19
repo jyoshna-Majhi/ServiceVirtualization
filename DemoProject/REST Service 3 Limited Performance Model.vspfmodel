@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<performanceModel version="5.8.0.2614" id="20b98c55-46da-4575-9983-f5eafaf6d8d4" name="REST Service 3 Limited Performance Model" description="Performance Model for REST Service 3 with limited TPS" virtualServiceId="db21cc49-8309-4cae-b163-123b7de6291a" isPerformanceBoostingActive="true" activeBoosterId="Cpu" isServiceBoostingActive="true" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <throughputMetric isActive="false" limit="0" />
+  <tpsMetric isActive="true" limit="10" />
+  <operation operationId="any-uri-operation" isOperationBoostingActive="true">
+    <throughputMetric isActive="false" limit="10000" />
+    <tpsMetric isActive="false" limit="10" />
+    <PeriodicMessageSchedulingSpecification isActive="false" bss="SequentialSingleThreaded" frequency="60000">
+      <relativeMessageSchedulingStartSpecification startDelay="0" />
+    </PeriodicMessageSchedulingSpecification>
+    <responseTimeMetric responseTimeMode="ValueWithTolerance" baseResponseTime="100" baseResponseTimeAbsMin="0" baseResponseTimeAbsMax="0" hitRateThreshold="1000" maximumResponseTime="1000" multiResponseIntervalTime="0" maximumHitRate="2000" tolerance="0.2" totalDatapointsCount="0">
+      <datapointsCluster meanHitRate="144.65154879265748" meanResponseTime="107.41162483925541" hitRateDiameter="73.204814342326955" responseTimeDiameter="16.146277303875554" datapointsCount="14" />
+      <datapointsCluster meanHitRate="383.41746234663475" meanResponseTime="99.9576491070714" hitRateDiameter="77.9481185328143" responseTimeDiameter="17.398269068169533" datapointsCount="17" />
+      <datapointsCluster meanHitRate="541.02564433552675" meanResponseTime="96.295182135093583" hitRateDiameter="78.0304834101999" responseTimeDiameter="17.097946078096491" datapointsCount="23" />
+      <datapointsCluster meanHitRate="783.575840405245" meanResponseTime="105.41640885892157" hitRateDiameter="59.620852694585473" responseTimeDiameter="14.323928320931238" datapointsCount="18" />
+      <datapointsCluster meanHitRate="959.52378998911684" meanResponseTime="100.78878892156705" hitRateDiameter="73.501469559312042" responseTimeDiameter="13.368264696732286" datapointsCount="28" />
+      <datapointsCluster meanHitRate="1149.198779186115" meanResponseTime="175.38049063260866" hitRateDiameter="75.414532925914969" responseTimeDiameter="29.25017082055151" datapointsCount="21" />
+      <datapointsCluster meanHitRate="1319.0877173650488" meanResponseTime="328.09043161609105" hitRateDiameter="85.2903172834435" responseTimeDiameter="49.053811488909822" datapointsCount="19" />
+      <datapointsCluster meanHitRate="1437.1348614723372" meanResponseTime="495.24794623288437" hitRateDiameter="79.575095595594078" responseTimeDiameter="73.676928517596892" datapointsCount="27" />
+      <datapointsCluster meanHitRate="1630.5189872641331" meanResponseTime="693.8633287754119" hitRateDiameter="61.929214404185622" responseTimeDiameter="102.7567007811877" datapointsCount="17" />
+      <datapointsCluster meanHitRate="1843.1035097465822" meanResponseTime="815.78539647727689" hitRateDiameter="67.004827051722074" responseTimeDiameter="146.42523217144833" datapointsCount="13" />
+    </responseTimeMetric>
+  </operation>
+  <operation operationId="any-uri-operation-slashed" isOperationBoostingActive="true">
+    <throughputMetric isActive="false" limit="10000" />
+    <tpsMetric isActive="false" limit="10" />
+    <PeriodicMessageSchedulingSpecification isActive="false" bss="SequentialSingleThreaded" frequency="60000">
+      <relativeMessageSchedulingStartSpecification startDelay="0" />
+    </PeriodicMessageSchedulingSpecification>
+    <responseTimeMetric responseTimeMode="ValueWithTolerance" baseResponseTime="100" baseResponseTimeAbsMin="0" baseResponseTimeAbsMax="0" hitRateThreshold="1000" maximumResponseTime="1000" multiResponseIntervalTime="0" maximumHitRate="2000" tolerance="0.2" totalDatapointsCount="0">
+      <datapointsCluster meanHitRate="163.00909317662007" meanResponseTime="100.50734960963361" hitRateDiameter="61.498647552596793" responseTimeDiameter="18.0925537078141" datapointsCount="21" />
+      <datapointsCluster meanHitRate="338.48969256181044" meanResponseTime="99.967587394624758" hitRateDiameter="83.544117543295428" responseTimeDiameter="13.802701460105693" datapointsCount="13" />
+      <datapointsCluster meanHitRate="496.52792879387943" meanResponseTime="101.02584384895202" hitRateDiameter="83.270936608144353" responseTimeDiameter="13.918886151592659" datapointsCount="23" />
+      <datapointsCluster meanHitRate="677.36196380155081" meanResponseTime="102.71929988764194" hitRateDiameter="68.345084384329112" responseTimeDiameter="16.8553734067154" datapointsCount="21" />
+      <datapointsCluster meanHitRate="877.65710028964634" meanResponseTime="97.47125718624855" hitRateDiameter="74.59303452296875" responseTimeDiameter="10.580493216673142" datapointsCount="16" />
+      <datapointsCluster meanHitRate="1065.4087717187463" meanResponseTime="193.49167520215948" hitRateDiameter="73.989120113658316" responseTimeDiameter="24.372851191092863" datapointsCount="22" />
+      <datapointsCluster meanHitRate="1301.7887529967725" meanResponseTime="348.09427847023369" hitRateDiameter="66.245529588087592" responseTimeDiameter="58.230710846648719" datapointsCount="13" />
+      <datapointsCluster meanHitRate="1428.8255061241832" meanResponseTime="534.26824117405124" hitRateDiameter="64.222886648556212" responseTimeDiameter="55.977105913842436" datapointsCount="16" />
+      <datapointsCluster meanHitRate="1689.0479500058159" meanResponseTime="661.71930742953441" hitRateDiameter="75.040248553922353" responseTimeDiameter="109.46587336690438" datapointsCount="27" />
+      <datapointsCluster meanHitRate="1770.0997466336214" meanResponseTime="767.24099148571361" hitRateDiameter="75.039900853105536" responseTimeDiameter="108.3697966355859" datapointsCount="15" />
+    </responseTimeMetric>
+  </operation>
+  <boosterValues boosterId="Cpu">
+    <sliderValue value="0" />
+  </boosterValues>
+  <boosterValues boosterId="Network">
+    <sliderValue value="0" />
+  </boosterValues>
+  <boosterValues boosterId="Cluster">
+    <sliderValue value="0" />
+  </boosterValues>
+  <boosterValues boosterId="Expert">
+    <sliderValue value="0" />
+    <sliderValue value="0" />
+    <sliderValue value="0" />
+    <sliderValue value="0" />
+  </boosterValues>
+</performanceModel>

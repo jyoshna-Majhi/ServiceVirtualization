@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{B60C90DC-3CB4-4BA9-97CC-425DEC4DA780}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ServerIdentifier>urn:Embedded Server</ServerIdentifier>
+    <ServerUrl />
+    <ProductVersion>3.0</ProductVersion>
+    <ProductEdition>Express</ProductEdition>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="REST Data Model Dataset 001.vsdataset" />
+    <None Include="REST Data Model Dataset.vsdataset" />
+    <None Include="REST Data Model.vsmodel" />
+    <None Include="REST Service 2 Data Model Dataset 001.vsdataset" />
+    <None Include="REST Service 2 Data Model Dataset 002.vsdataset" />
+    <None Include="REST Service 2 Data Model Dataset.vsdataset" />
+    <None Include="REST Service 2 Data Model.vsmodel" />
+    <None Include="REST Service 2 Limited Performance Model.vspfmodel" />
+    <None Include="REST Service 2 Offline Performance.vspfmodel" />
+    <None Include="REST Service 2 Performance Model.vspfmodel" />
+    <None Include="REST Service 2 Service Description.vsdsc" />
+    <None Include="REST Service 2.vs" />
+    <None Include="REST Service 2.vsmf" />
+    <None Include="REST Service 3 Data Model Dataset 001.vsdataset" />
+    <None Include="REST Service 3 Data Model Dataset.vsdataset" />
+    <None Include="REST Service 3 Data Model.vsmodel" />
+    <None Include="REST Service 3 Limited Performance Model.vspfmodel" />
+    <None Include="REST Service 3 Offline Performance.vspfmodel" />
+    <None Include="REST Service 3 Performance Model.vspfmodel" />
+    <None Include="REST Service 3 Service Description.vsdsc" />
+    <None Include="REST Service 3.vs" />
+    <None Include="REST Service 3.vsmf" />
+    <None Include="REST Service Description.vsdsc" />
+    <None Include="REST Service Limited Performance Model.vspfmodel" />
+    <None Include="REST Service Offline Performance.vspfmodel" />
+    <None Include="REST Service Performance Model.vspfmodel" />
+    <None Include="REST Service.vs" />
+    <None Include="REST Service.vsmf" />
+  </ItemGroup>
+</Project>

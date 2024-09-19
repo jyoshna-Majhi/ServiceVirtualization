@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<deploymentManifest id="manifest_f943579b-ea6f-4773-9156-86fcbdff8f71" rootItemId="f943579b-ea6f-4773-9156-86fcbdff8f71" xmlns="http://hp.com/SOAQ/ServiceVirtualization/2010/">
+  <Item id="f943579b-ea6f-4773-9156-86fcbdff8f71" type="VirtualService">
+    <References>
+      <Ref id="161a3147-6947-431d-a5f1-e1f3c5a880d6" />
+      <Ref id="23b27c21-885f-413e-96b0-4966d045ba91" />
+      <Ref id="89cda80f-d4b4-487f-be50-9fae81434bc7" />
+      <Ref id="9e511b4a-0921-4b13-9ccc-cae57d7400bb" />
+      <Ref id="9eb60132-fc1e-476c-b0c2-de28d946d471" />
+    </References>
+  </Item>
+  <Item id="23b27c21-885f-413e-96b0-4966d045ba91" type="DataModel">
+    <References>
+      <Ref id="625ca0fe-2454-4262-9d03-9e39c1342917" />
+      <Ref id="89cda80f-d4b4-487f-be50-9fae81434bc7" />
+      <Ref id="b02f2424-0eb7-44f1-9984-1655764dc0b9" />
+      <Ref id="e8ffeab3-0139-42ff-8951-0813ae257527" />
+    </References>
+  </Item>
+  <Item id="9e511b4a-0921-4b13-9ccc-cae57d7400bb" type="PerformanceModel">
+    <References />
+  </Item>
+  <Item id="9eb60132-fc1e-476c-b0c2-de28d946d471" type="PerformanceModel">
+    <References />
+  </Item>
+  <Item id="161a3147-6947-431d-a5f1-e1f3c5a880d6" type="PerformanceModel">
+    <References />
+  </Item>
+  <Item id="625ca0fe-2454-4262-9d03-9e39c1342917" type="Dataset" contentHashcode="98767454">
+    <References />
+  </Item>
+  <Item id="b02f2424-0eb7-44f1-9984-1655764dc0b9" type="Dataset" contentHashcode="-925772744">
+    <References />
+  </Item>
+  <Item id="89cda80f-d4b4-487f-be50-9fae81434bc7" type="ServiceDescription">
+    <References />
+  </Item>
+  <Item id="e8ffeab3-0139-42ff-8951-0813ae257527" type="Dataset" contentHashcode="1384060544">
+    <References />
+  </Item>
+</deploymentManifest>
